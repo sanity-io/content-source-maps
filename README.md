@@ -1,5 +1,4 @@
 # Content Source Maps Specification
-
 # Background
 
 When working with composable systems and structured content, the information end users see originates from multiple sources: multiple “parts” that content creators author, that are assembled together seamlessly into a “whole” to be presented to users. Having access to metadata of the specific “parts”, but directly from the “whole” - the assembled end-user experience - it’s extremely useful for content creators, reviewers, and developers, for example, telling where each individual fragment of content came from, who edited last and when it was last updated.
@@ -117,7 +116,6 @@ And another document representing the book “Nineteen Eighty-Four” by author 
   }
 }
 ```
-
 If these three documents are composed into the following document:
 
 ```json
@@ -376,6 +374,7 @@ type UnknownSource = {
 <aside>
 🚧 In a new revision we will open source a library to resolve sources
 </aside>
+
 
 To resolve a content source, follow these steps:
 
