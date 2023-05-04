@@ -384,3 +384,7 @@ To resolve a content source, follow these steps:
 4. **Append the path suffix**: If a matching mapping is found, append any remaining path suffix to the source path. This step ensures that the final source path is an accurate representation of the values location in the source document.
 
 By following this process, you can efficiently resolve a mapping for any content value.
+
+## License
+
+The specification is made available under the Open Web Foundation Final Specification Agreement (OWFa 1.0).
