@@ -1,4 +1,7 @@
 # Content Source Maps Specification
+
+The Content Source Maps specification powers [the Visual Editing experience for Sanity](https://www.sanity.io/blog/introducing-presentation) and many other CMSes.
+
 # Background
 
 When working with composable systems and structured content, the information end users see originates from multiple sources: multiple “parts” that content creators author, that are assembled together seamlessly into a “whole” to be presented to users. Having access to metadata of the specific “parts”, but directly from the “whole” - the assembled end-user experience - it’s extremely useful for content creators, reviewers, and developers, for example, telling where each individual fragment of content came from, who edited last and when it was last updated.
@@ -20,7 +23,7 @@ Today Content Source Maps enables annotating JSON documents with “source” me
 | JSON Value           | A value within a JSON document, such as a string, number, object, array, or boolean                                                                                                        |
 | Mapping              | A connection between a content value and its source or sources                                                                                                                             |
 | Source               | The origin of the content, such as a JSON document and path                                                                                                                                |
-| Normalised JSON Path | A string representing the location of a value within a JSON document in a standardised format. See https://datatracker.ietf.org/doc/html/draft-ietf-jsonpath-base-13#name-normalized-paths |
+| Normalised JSON Path | A string representing the location of a value within a JSON document in a standardized format. See https://datatracker.ietf.org/doc/html/draft-ietf-jsonpath-base-13#name-normalized-paths |
 
 # Overview of Content Source Map
 
@@ -74,7 +77,7 @@ The `documents` and `paths` properties within the Content Source Map serve as lo
 
 ## Example
 
-Imagine these three independent JSON documents exists:
+Imagine these three independent JSON documents exist:
 
 A document representing the author “George Orwell”:
 
